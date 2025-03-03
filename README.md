@@ -23,7 +23,6 @@ We would often get asked on the most best extensions to get started with as a da
 
 ## TODO:
 - Add info on what each extension does
-- Migrate to GitHub
 
 # Info on each extension
 
