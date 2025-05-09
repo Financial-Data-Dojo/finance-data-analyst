@@ -36,3 +36,10 @@
 ### Useful Settings Config
 
 - Removed references to "Material Theme" from the theme selector
+
+## [1.8.1] - 2025-05-09
+
+- Recommendation to user to uninstall deprecated packages ("Material Theme - Free)
+- Go to your extensions manager, find the 2 extensions that have a yellow triangle
+- Select any one of the extensions, then click on the drop down arrow button near where it says 'Migrate to Vira Theme', then select Uninstall
+- This should uninstall both
