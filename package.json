@@ -4,7 +4,7 @@
   "publisher": "FinancialDataDojo",
   "icon": "resources/FDA.png",
   "description": "Useful selection of VS Code extensions for data analysts in finance. All the essentials needed to setup your VS Code environment for a data analyst using python, and make it look good too!",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Financial-Data-Dojo/finance-data-analyst/blob/main/README.md",
   "extensionPack": [
-    "aaron-bond.better-comments", 
+    "aaron-bond.better-comments",
     "akamud.vscode-theme-onedark",
     "almenon.arepl",
     "alturos.vscjsontableeditor",
@@ -25,8 +25,6 @@
     "daylerees.rainglow",
     "eliverlara.andromeda",
     "enkia.tokyo-night",
-    "equinusocio.vsc-material-theme",
-    "equinusocio.vsc-material-theme-icons",
     "esbenp.prettier-vscode",
     "formulahendry.code-runner",
     "grapecity.gc-excelviewer",
@@ -56,6 +54,7 @@
     "visualstudioexptteam.intellicode-api-usage-examples",
     "visualstudioexptteam.vscodeintellicode",
     "yzhang.markdown-all-in-one",
-    "zanza00.random-theme-switcher"
+    "zanza00.random-theme-switcher",
+    "alefragnani.project-manager"
   ]
 }
