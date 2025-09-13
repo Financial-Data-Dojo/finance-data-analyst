@@ -16,17 +16,14 @@
     "url": "https://github.com/Financial-Data-Dojo/finance-data-analyst.git"
   },
   "homepage": "https://github.com/Financial-Data-Dojo/finance-data-analyst/blob/main/README.md",
-  "extensionPack": [
-    "aaron-bond.better-comments",
-    "akamud.vscode-theme-onedark",
-    "almenon.arepl",
+  "extensionPack": [    
+    "akamud.vscode-theme-onedark",    
     "alturos.vscjsontableeditor",
     "davidanson.vscode-markdownlint",
     "daylerees.rainglow",
     "eliverlara.andromeda",
     "enkia.tokyo-night",
-    "esbenp.prettier-vscode",
-    "formulahendry.code-runner",
+    "ms-python.black-formatter",    
     "grapecity.gc-excelviewer",
     "gruntfuggly.todo-tree",
     "inferrinizzard.prettier-sql-vscode",

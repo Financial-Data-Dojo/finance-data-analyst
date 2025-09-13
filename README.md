@@ -22,77 +22,73 @@ This is a selection of VS Code extensions that has been curated after real-world
 
 We would often get asked on the most best extensions to get started with as a data analyst in finance. So we created this extension pack to make it easier for new users to get up and running as soon as possible!
 
-## TODO:
-
-- Add info on what each extension does
-
-# Info on each extension
+# Information on each extension
 
 ## Coding related
 
-> ToAdd Descrption
+> Helpful packages that are core to enabling Python coding within VS-Code, or add key functionaility.
 
-| Name                                                | Description |
-| --------------------------------------------------- | ----------- |
-| almenon.arepl                                       | ToAdd       |
-| formulahendry.code-runner                           | ToAdd       |
-| ms-python.debugpy                                   | ToAdd       |
-| ms-python.python                                    | ToAdd       |
-| ms-python.vscode-pylance                            | ToAdd       |
-| ms-toolsai.jupyter                                  | ToAdd       |
-| ms-toolsai.jupyter-keymap                           | ToAdd       |
-| ms-toolsai.jupyter-renderers                        | ToAdd       |
-| ms-toolsai.vscode-jupyter-cell-tags                 | ToAdd       |
-| ms-toolsai.vscode-jupyter-slideshow                 | ToAdd       |
-| ms-vscode.powershell                                | ToAdd       |
-| visualstudioexptteam.intellicode-api-usage-examples | ToAdd       |
-| visualstudioexptteam.vscodeintellicode              | ToAdd       |
+| Name                                                | Description | Why it's useful |
+| --------------------------------------------------- | ----------- | -----------     |
+| ms-python.debugpy                                   | Python debugger engine for VS Code.       | Essential for stepping through and fixing complex code issues.           |
+| ms-python.python                                    | Core Python extension for VS Code.       | Provides linting, IntelliSense, debugging, and environment management.           |
+| ms-python.vscode-pylance                            | Language server for Python offering fast IntelliSense.       | Improves code completion, error checking, and performance.           |
+| ms-toolsai.jupyter                                  | Support for running and editing Jupyter Notebooks.       | Allows working with data analysis workflows inside VS Code.           |
+| ms-toolsai.jupyter-keymap                           | Keymaps for Jupyter-like shortcuts in VS Code.       | Provides familiar notebook-style keyboard shortcuts.           |
+| ms-toolsai.jupyter-renderers                        | Rich rendering support (plots, tables, HTML) in Jupyter cells.       | Enhances visualization directly inside VS Code notebooks.           |
+| ms-toolsai.vscode-jupyter-cell-tags                 | Adds cell tagging in Jupyter notebooks.       | Useful for parameterization and exporting specific cells.           |
+| ms-toolsai.vscode-jupyter-slideshow                 | Turns Jupyter notebooks into slide presentations.       | Great for teaching or presenting analysis directly from notebooks.           |
+| ms-vscode.powershell                                | PowerShell language support with IntelliSense and debugging.       | Enables automation and scripting within VS Code.           |
+| visualstudioexptteam.intellicode-api-usage-examples | Provides sample projects showing AI-assisted IntelliCode suggestions.       | Helps understand and get started with IntelliCode.           |
+| visualstudioexptteam.vscodeintellicode              | AI-assisted code completions based on best practices.       | Speeds up coding with smarter auto-completion.           |
 
 ## Data related
 
-> ToAdd Descrption
+> Since we're focussed on working with data, these extensions are crucial to our workflow in making it easier to read and interact with the various common datasets and types we use.
 
-| Name                           | Description |
-| ------------------------------ | ----------- |
-| alturos.vscjsontableeditor     | ToAdd       |
-| grapecity.gc-excelviewer       | ToAdd       |
-| ms-mssql.data-workspace-vscode | ToAdd       |
-| ms-toolsai.datawrangler        | ToAdd       |
-| nickdemayo.vscode-json-editor  | ToAdd       |
-| redhat.vscode-yaml             | ToAdd       |
+| Name                                                | Description | Why it's useful |
+| --------------------------------------------------- | ----------- | -----------     |
+| alturos.vscjsontableeditor     | JSON editor with a spreadsheet-like table view.       | Makes large JSON files easier to read and edit.       |
+| grapecity.gc-excelviewer       | Preview Excel and CSV files directly in VS Code.       | Saves time by avoiding external Excel tools.       |
+| ms-mssql.data-workspace-vscode | Manage SQL Server data workspaces.       | Organizes SQL projects and connections in one place.       |
+| ms-toolsai.datawrangler        | Visual data cleaning and transformation tool.       | Super useful when viewing dataframes for preview.       |
+| nickdemayo.vscode-json-editor  | Rich JSON editor with validation and formatting.       | Prevents JSON syntax errors and improves readability.       |
+| redhat.vscode-yaml             | YAML language support with validation and IntelliSense.       | Crucial for working with config files like Kubernetes or CI/CD.       |
+| mechatroner.rainbow-csv               | Highlights CSV columns in different colors.       | Makes CSV files much easier to navigate.       |
 
 ## Organisational
 
-> ToAdd Descrption
+> Keeping your code structured and organised is half the battle. These extensions try to make it easier to look after the more adminstrative side of coding, so you can just focus on building!
 
-| Name                                  | Description |
-| ------------------------------------- | ----------- |
-| aaron-bond.better-comments            | ToAdd       |
-| davidanson.vscode-markdownlint        | ToAdd       |
-| esbenp.prettier-vscode                | ToAdd       |
-| gruntfuggly.todo-tree                 | ToAdd       |
-| inferrinizzard.prettier-sql-vscode    | ToAdd       |
-| jeff-hykin.polacode-2019              | ToAdd       |
-| kevinrose.vsc-python-indent           | ToAdd       |
-| mechatroner.rainbow-csv               | ToAdd       |
-| oderwat.indent-rainbow                | ToAdd       |
-| streetsidesoftware.code-spell-checker | ToAdd       |
-| yzhang.markdown-all-in-one            | ToAdd       |
+| Name                                  | Description | Why it's useful |
+| --------------------------------------| ----------- | -----------     |
+| davidanson.vscode-markdownlint        | Lints and enforces Markdown style rules.       | Ensures clean, consistent markdown documentation.       |
+| ms-python.black-formatter             | Automatically formats Python code using Black.       | Enforces consistent and PEP 8–compliant style. Easier for teams to read/be consistent.       |
+| gruntfuggly.todo-tree                 | Displays TODO/FIXME comments in a tree view.       | Keeps track of tasks and reminders inside projects. Super useful!       |
+| inferrinizzard.prettier-sql-vscode    | Formats SQL queries for readability.       | Saves time by auto-formatting complex queries.       |
+| jeff-hykin.polacode-2019              | Generates screenshots of code snippets.       | Useful for sharing styled code in slides or docs/documentation.       |
+| kevinrose.vsc-python-indent           | Fixes Python indentation issues automatically.       | Prevents syntax errors caused by misaligned code.       |
+| oderwat.indent-rainbow                | Colors indentation levels in code.       | Quickly spot alignment and indentation errors.       |
+| streetsidesoftware.code-spell-checker | Checks spelling in source code and documentation.       | Prevents typos in comments, strings, and docs.       |
+| yzhang.markdown-all-in-one            | Provides Markdown shortcuts, TOC, and preview features.       | Streamlines writing and formatting documentation.       |
 
 ## Themes
 
-> ToAdd Descrption
+> When you're spending hours in a coding session, you want your environment to look sleek and exciting. These themes have been tested and hand picked to provide a nice experience whilst you build.
 
-| Name                          | Description |
-| ----------------------------- | ----------- |
-| akamud.vscode-theme-onedark   | ToAdd       |
-| daylerees.rainglow            | ToAdd       |
-| eliverlara.andromeda          | ToAdd       |
-| enkia.tokyo-night             | ToAdd       |
-| pkief.material-icon-theme     | ToAdd       |
-| robbowen.synthwave-vscode     | ToAdd       |
-| sallar.vscode-duotone-dark    | ToAdd       |
-| zanza00.random-theme-switcher | ToAdd       |
+| Name                          | Description | Why it's useful |
+| ------------------------------| ----------- | -----------     |
+| zanza00.random-theme-switcher | Automatically switches VS Code theme randomly.       | Keeps coding experience fresh and varied.       |
+
+| Theme Name |
+| ---------- |
+|akamud.vscode-theme-onedark   |
+| daylerees.rainglow           |
+| eliverlara.andromeda         |
+| enkia.tokyo-night            |
+| pkief.material-icon-theme    |
+| robbowen.synthwave-vscode    |
+| sallar.vscode-duotone-dark   |
 
 # Useful Settings Config
 
@@ -107,9 +103,10 @@ To quickly customise your VS Code environment, try our Settings JSON config deta
   "editor.cursorBlinking": "expand",
   "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "ms-python.black-formatter",
   "[Python]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
   },
   "[SQL]": {
     "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
@@ -118,6 +115,7 @@ To quickly customise your VS Code environment, try our Settings JSON config deta
   "indentRainbow.indicatorStyle": "light",
   "jupyter.interactiveWindow.textEditor.executeSelection": true,
   "jupyter.interactiveWindow.creationMode": "perFile",
+  "cSpell.language": "en-GB",
   "randomThemeSwitcher.switchMode": "interval",
   "randomThemeSwitcher.switchInterval": 15,
   "randomThemeSwitcher.themeList": [
