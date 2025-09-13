@@ -75,6 +75,7 @@ We would often get asked on the most best extensions to get started with as a da
 | oderwat.indent-rainbow                | Colors indentation levels in code.       | Quickly spot alignment and indentation errors.       |
 | streetsidesoftware.code-spell-checker | Checks spelling in source code and documentation.       | Prevents typos in comments, strings, and docs.       |
 | yzhang.markdown-all-in-one            | Provides Markdown shortcuts, TOC, and preview features.       | Streamlines writing and formatting documentation.       |
+|alefragnani.project-manager            | Helps organize and switch between multiple projects within VS Code. | Saves time when working across many repos or workspaces. |
 
 ## Themes
 
