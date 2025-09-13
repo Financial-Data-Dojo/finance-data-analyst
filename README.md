@@ -1,5 +1,9 @@
 # Finance Data Analyst
 
+<p align="center">
+  <img src="resources/FDA.png" alt="FDA Logo" width="150"/>
+</p>
+
 ## YouTube Guides
 
 ### [Financial Data Dojo YouTube Channel](https://www.youtube.com/@Dojo.FinancialData)
