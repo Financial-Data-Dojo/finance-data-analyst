@@ -4,7 +4,7 @@
   "publisher": "FinancialDataDojo",
   "icon": "resources/FDA.png",
   "description": "Useful selection of VS Code extensions for data analysts in finance. All the essentials needed to setup your VS Code environment for a data analyst using python, and make it look good too!",
-  "version": "1.8.1",
+  "version": "2.0.0",
   "engines": {
     "vscode": "^1.84.0"
   },
