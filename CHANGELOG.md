@@ -1,5 +1,24 @@
 # Change Log
 
+## [2.1.0] - 2026-08-10
+
+### Packages
+
+- Removed the following Packages:
+
+  - "IntelliCode (& API Usage Examples)" - MS depricated this unfortunately and 'forced' everyone to use GH Copilot Chat. 
+  - "ToDo Tree (Gruntfuggly)" - Package was not being maintained. Switched to alternative. After testing for several months, now happy to add to main package
+
+- Added the following Packages:
+
+  - "GitHub Copilot Chat" - forced replacement of IntelliCode. After testing for several months, now happy to add to main package
+  - "Better Todo Tree" - fork of ToDo Tree that is regularly updated. Also tested for several months, now adding to main package
+
+### Useful Settings Config
+
+- Added some headers to break up the different sections and minor tidy up
+- Added config settings for 'better-todo-tree'
+
 ## [2.0.0] - 2025-09-13
 
 ### Packages
@@ -53,7 +72,7 @@
 
 ## [1.7.0] - 2025-03-03
 
-- Created Github Rep
+- Created Github Repo
 - Migrated extension to Github
 
 ## [1.6.0] - 2024-11-26

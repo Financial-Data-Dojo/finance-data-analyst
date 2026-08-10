@@ -101,9 +101,13 @@ To quickly customise your VS Code environment, try our Settings JSON config deta
 
 ```json
 {
-  "workbench.colorTheme": "Solarized Dark",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.settings.applyToAllProfiles": [],
+  //==============================================================
+  // COMPANY OR USER SPECIFIC SETTINGS GO HERE
+  // eg, proxy settings
+  // eg, internal python packages
+  //==============================================================
+  // VSC EXTENSION SETTINGS GO HERE
+  //---EDITOR AND LANGUAGE SETTINGS
   "editor.fontSize": 12,
   "editor.cursorBlinking": "expand",
   "editor.minimap.enabled": false,
@@ -117,10 +121,51 @@ To quickly customise your VS Code environment, try our Settings JSON config deta
     "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode"
   },
   "files.defaultLanguage": "python",
-  "indentRainbow.indicatorStyle": "light",
   "jupyter.interactiveWindow.textEditor.executeSelection": true,
   "jupyter.interactiveWindow.creationMode": "perFile",
   "cSpell.language": "en-GB",
+  //---BETTER TODO SETTINGS
+  "better-todo-tree.tree.showCountsInTree": true,
+  "better-todo-tree.highlights.useColourScheme": true,
+  "better-todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "screen-full",
+      "type": "tag",
+      "foreground": "white",
+      "background": "green",
+      "opacity": 50,
+      "iconColour": "green",
+      "gutterIcon": true
+    },
+    "BUG": {
+      "icon": "bug",
+      "type": "tag",
+      "foreground": "white",
+      "background": "red",
+      "opacity": 50,
+      "iconColour": "red",
+      "gutterIcon": true
+    },
+    "FIXME": {
+      "icon": "tools",
+      "type": "tag",
+      "foreground": "white",
+      "background": "orange",
+      "opacity": 50,
+      "iconColour": "orange",
+      "gutterIcon": true
+    }
+  },
+  "better-todo-tree.general.tags": [
+    "TODO",
+    "BUG",
+    "FIXME"
+  ]
+  //---THEME SETTINGS
+  "workbench.colorTheme": "Solarized Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.settings.applyToAllProfiles": [],
+  "indentRainbow.indicatorStyle": "light",  
   "randomThemeSwitcher.switchMode": "interval",
   "randomThemeSwitcher.switchInterval": 15,
   "randomThemeSwitcher.themeList": [
